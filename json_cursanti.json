@@ -1,0 +1,76 @@
+{
+    "Cursanti": [
+        {
+            "nume": "Ion",
+            "prenume": "Ionel",
+            "hobby": [
+                "calatoritul",
+                "muzica"
+            ],
+            "tel": [
+                {
+                    "cod_tara": "+40",
+                    "nr": "75*******"
+                },
+                {
+                    "cod_tara": "+33",
+                    "nr": "58*******"
+                }
+            ]
+        },
+        {
+            "nume": "Vasilescu",
+            "prenume": "Vasile",
+            "hobby": [
+                "calatoritul",
+                "sportul"
+            ],
+            "tel": [
+                {
+                    "cod_tara": "+40",
+                    "nr": "74*******"
+                },
+                {
+                    "cod_tara": "+32",
+                    "nr": "59*******"
+                }
+            ]
+        },
+        {
+            "nume": "Mihaescu",
+            "prenume": "Mihai",
+            "hobby": [
+                "cititul",
+                "jocuri video"
+            ],
+            "tel": [
+                {
+                    "cod_tara": "+40",
+                    "nr": "72*******"
+                },
+                {
+                    "cod_tara": "+31",
+                    "nr": "60*******"
+                }
+            ]
+        },
+        {
+            "nume": "Ionescu",
+            "prenume": "Ionut",
+            "hobby": [
+                "statul la plaja",
+                "cititul"
+            ],
+            "tel": [
+                {
+                    "cod_tara": "+40",
+                    "nr": "77*******"
+                },
+                {
+                    "cod_tara": "+36",
+                    "nr": "80*******"
+                }
+            ]
+        }
+    ]
+}

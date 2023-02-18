@@ -1,0 +1,112 @@
+2023-02-18 13:03:57,111 Just an info
+2023-02-18 13:03:57,111 operatiunea de scriere 1 a fost cu succes
+2023-02-18 13:03:57,112 Cursant adaugat cu succes!
+2023-02-18 13:03:57,112 Using proactor: IocpProactor
+2023-02-18 13:03:57,128 Entering: get_me
+2023-02-18 13:03:57,246 Adding (b':method', b'POST') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,246 Encoding 3 with 7 bits
+2023-02-18 13:03:57,246 Adding (b':authority', b'api.telegram.org') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,246 Encoding 1 with 6 bits
+2023-02-18 13:03:57,246 Encoding 12 with 7 bits
+2023-02-18 13:03:57,246 Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,246 Encoding 7 with 7 bits
+2023-02-18 13:03:57,246 Adding (b':path', b'/bot6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ/getMe') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,247 Encoding 4 with 6 bits
+2023-02-18 13:03:57,247 Encoding 43 with 7 bits
+2023-02-18 13:03:57,247 Adding (b'content-length', b'0') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,247 Encoding 28 with 6 bits
+2023-02-18 13:03:57,247 Encoding 1 with 7 bits
+2023-02-18 13:03:57,247 Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,247 Encoding 19 with 6 bits
+2023-02-18 13:03:57,247 Encoding 3 with 7 bits
+2023-02-18 13:03:57,247 Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,247 Encoding 16 with 7 bits
+2023-02-18 13:03:57,247 Adding (b'user-agent', b'python-telegram-bot v20.1 (https://python-telegram-bot.org)') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,247 Encoding 58 with 6 bits
+2023-02-18 13:03:57,247 Encoding 43 with 7 bits
+2023-02-18 13:03:57,247 Encoded header block to b'\x83A\x8c\x1df]%\xa0\xb3X:W=\x93\x7f\x87D\xabb3\xa5\xc1\t\xd6\xc2\xeb\xe2n\xe40\xe0\xc4\xe0\xbd4\x0e\x91\x1b\x16^\xdd\xff$\xdf\xb8\x85\xe1Azm\x0e\xa96\x8em\xfb\x18\x98\xa9\xd0_\\\x81\x07S\x83\xf9c\xe7\x90z\xab\xaf\xd2g=K$\xb4\x16k\x07J\xd1\x9d*w\x10\x17\n\x9f\xd4\xe9Mh\xb8\xc3\x15\xfaL\xe7\xa9d\x96\x82\xcd`\xe9Z3\xa5s\xd97\xf7'
+2023-02-18 13:03:57,298 Decoding b' \x88v\x89\xaacU\xe5\x80\xae\x17\x97\x07a\x96\xdc4\xfd(\x17\x94\xc2X\xd4\x10\x04\xca\x81\r\xc03q\xb7T\xc5\xa3\x7f_\x8b\x1du\xd0b\r&=LtA\xea\\\x03192\x00\x91Bl1\x12\xb2l\x1dH\xac\xf6%d\x14\x96\xd8d\xfa\xa0\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4}\xa9]\x85\xa0\xe3\x93\x00\x93\x19\x08T!b\x1e\xa4\xd8z\x16\x1d\x14\x1f\xc2\xc7\xb0\xd3\x1a\xaf\x01*\x00\x94\x19\x08T!b\x1e\xa4\xd8z\x16\x1d\x14\x1f\xc2\xd4\x953\x9eD\x7f\x90\xc5\x83\x7f\xd2\x9a\xf5n\xdf\xf4\xa6\xad{\xf2j\xd3\xbb\x00\x94\x19\x08T!b\x1e\xa4\xd8z\x16/\x9a\xce\x82\xad9G!lG\xa5\xbcz\x92Z\x92\xb6r\xd52g\xfa\xbcz\x92Z\x92\xb6\xffU\x97\xea\xf8\xd2_\xad\xc5\xb3\xb9l\xfa\xbcz\xaa)\x12c\xd5'
+2023-02-18 13:03:57,299 Decoded 0, consumed 1 bytes
+2023-02-18 13:03:57,299 Resizing header table to 0 from 4096
+2023-02-18 13:03:57,299 Decoded 8, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b':status', b'200'), consumed 1
+2023-02-18 13:03:57,299 Decoded 54, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 9, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'server', b'nginx/1.18.0'), total consumed 11 bytes, indexed True
+2023-02-18 13:03:57,299 Decoded 33, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 22, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'date', b'Sat, 18 Feb 2023 11:03:57 GMT'), total consumed 24 bytes, indexed True
+2023-02-18 13:03:57,299 Decoded 31, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 11, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+2023-02-18 13:03:57,299 Decoded 28, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 3, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'content-length', <memory at 0x0000028E12B4B040>), total consumed 5 bytes, indexed True
+2023-02-18 13:03:57,299 Decoded 17, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 32, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), total consumed 52 bytes, indexed False
+2023-02-18 13:03:57,299 Decoded 19, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 1, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'access-control-allow-origin', <memory at 0x0000028E12B4A5C0>), total consumed 23 bytes, indexed False
+2023-02-18 13:03:57,299 Decoded 20, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 16, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'access-control-allow-methods', b'GET, POST, OPTIONS'), total consumed 39 bytes, indexed False
+2023-02-18 13:03:57,299 Decoded 20, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded 37, consumed 1 bytes
+2023-02-18 13:03:57,299 Decoded (b'access-control-expose-headers', b'Content-Length,Content-Type,Date,Server,Connection'), total consumed 60 bytes, indexed False
+2023-02-18 13:03:57,300 HTTP Request: POST https://api.telegram.org/bot6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ/getMe "HTTP/2 200 OK"
+2023-02-18 13:03:57,300 User(can_join_groups=True, can_read_all_group_messages=False, first_name='sda_1', id=6227517925, is_bot=True, supports_inline_queries=False, username='sda_17xy_robot')
+2023-02-18 13:03:57,300 Exiting: get_me
+2023-02-18 13:03:57,300 Entering: send_message
+2023-02-18 13:03:57,301 Adding (b':method', b'POST') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 3 with 7 bits
+2023-02-18 13:03:57,301 Adding (b':authority', b'api.telegram.org') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 66 with 7 bits
+2023-02-18 13:03:57,301 Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 7 with 7 bits
+2023-02-18 13:03:57,301 Adding (b':path', b'/bot6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ/sendMessage') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 4 with 6 bits
+2023-02-18 13:03:57,301 Encoding 47 with 7 bits
+2023-02-18 13:03:57,301 Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 64 with 7 bits
+2023-02-18 13:03:57,301 Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 16 with 7 bits
+2023-02-18 13:03:57,301 Adding (b'user-agent', b'python-telegram-bot v20.1 (https://python-telegram-bot.org)') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,301 Encoding 63 with 7 bits
+2023-02-18 13:03:57,301 Adding (b'content-length', b'1943') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,302 Encoding 28 with 6 bits
+2023-02-18 13:03:57,302 Encoding 3 with 7 bits
+2023-02-18 13:03:57,302 Adding (b'content-type', b'application/x-www-form-urlencoded') to the header table, sensitive:False, huffman:True
+2023-02-18 13:03:57,302 Encoding 31 with 6 bits
+2023-02-18 13:03:57,302 Encoding 24 with 7 bits
+2023-02-18 13:03:57,302 Encoded header block to b'\x83\xc2\x87D\xafb3\xa5\xc1\t\xd6\xc2\xeb\xe2n\xe40\xe0\xc4\xe0\xbd4\x0e\x91\x1b\x16^\xdd\xff$\xdf\xb8\x85\xe1Azm\x0e\xa96\x8em\xfb\x18Aj\x93AP\x81\xcc_\xc0\x90\xbf\\\x83\x0b\xed3_\x98\x1du\xd0b\r&=Ly[\xc7\x8f\x0bJ{)Z\xdb(-D<\x85\x93'
+2023-02-18 13:03:57,439 Decoding b'\x88v\x89\xaacU\xe5\x80\xae\x17\x97\x07a\x96\xdc4\xfd(\x17\x94\xc2X\xd4\x10\x04\xca\x81\r\xc03q\xb7T\xc5\xa3\x7f_\x8b\x1du\xd0b\r&=LtA\xea\\\x041743\x00\x91Bl1\x12\xb2l\x1dH\xac\xf6%d\x14\x96\xd8d\xfa\xa0\xa4~V\x1c\xc5\x81\x90\xb6\xcb\x80\x00>\xd45D\xa2\xd9\x0b\xba\xd8\xef\x9e\x91\x9a\xa4}\xa9]\x85\xa0\xe3\x93\x00\x93\x19\x08T!b\x1e\xa4\xd8z\x16\x1d\x14\x1f\xc2\xc7\xb0\xd3\x1a\xaf\x01*\x00\x94\x19\x08T!b\x1e\xa4\xd8z\x16\x1d\x14\x1f\xc2\xd4\x953\x9eD\x7f\x90\xc5\x83\x7f\xd2\x9a\xf5n\xdf\xf4\xa6\xad{\xf2j\xd3\xbb\x00\x94\x19\x08T!b\x1e\xa4\xd8z\x16/\x9a\xce\x82\xad9G!lG\xa5\xbcz\x92Z\x92\xb6r\xd52g\xfa\xbcz\x92Z\x92\xb6\xffU\x97\xea\xf8\xd2_\xad\xc5\xb3\xb9l\xfa\xbcz\xaa)\x12c\xd5'
+2023-02-18 13:03:57,440 Decoded 8, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b':status', b'200'), consumed 1
+2023-02-18 13:03:57,440 Decoded 54, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 9, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'server', b'nginx/1.18.0'), total consumed 11 bytes, indexed True
+2023-02-18 13:03:57,440 Decoded 33, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 22, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'date', b'Sat, 18 Feb 2023 11:03:57 GMT'), total consumed 24 bytes, indexed True
+2023-02-18 13:03:57,440 Decoded 31, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 11, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'content-type', b'application/json'), total consumed 13 bytes, indexed True
+2023-02-18 13:03:57,440 Decoded 28, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 4, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'content-length', <memory at 0x0000028E12B4A5C0>), total consumed 6 bytes, indexed True
+2023-02-18 13:03:57,440 Decoded 17, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 32, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), total consumed 52 bytes, indexed False
+2023-02-18 13:03:57,440 Decoded 19, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 1, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'access-control-allow-origin', <memory at 0x0000028E12B4A680>), total consumed 23 bytes, indexed False
+2023-02-18 13:03:57,440 Decoded 20, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 16, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'access-control-allow-methods', b'GET, POST, OPTIONS'), total consumed 39 bytes, indexed False
+2023-02-18 13:03:57,440 Decoded 20, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded 37, consumed 1 bytes
+2023-02-18 13:03:57,440 Decoded (b'access-control-expose-headers', b'Content-Length,Content-Type,Date,Server,Connection'), total consumed 60 bytes, indexed False
+2023-02-18 13:03:57,441 HTTP Request: POST https://api.telegram.org/bot6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ/sendMessage "HTTP/2 200 OK"
+2023-02-18 13:03:57,441 Message(channel_chat_created=False, chat=Chat(first_name='Constantin', id=1307289323, last_name='C.', type=<ChatType.PRIVATE>), date=datetime.datetime(2023, 2, 18, 11, 3, 57, tzinfo=<UTC>), delete_chat_photo=False, from_user=User(first_name='sda_1', id=6227517925, is_bot=True, username='sda_17xy_robot'), group_chat_created=False, message_id=19, supergroup_chat_created=False, text='{\n    "Cursanti": [\n        {\n            "nume": "Ion",\n            "prenume": "Ionel",\n            "hobby": [\n                "calatoritul",\n                "muzica"\n            ],\n            "tel": [\n                {\n                    "cod_tara": "+40",\n                    "nr": "75*******"\n                },\n                {\n                    "cod_tara": "+33",\n                    "nr": "58*******"\n                }\n            ]\n        },\n        {\n            "nume": "Vasilescu",\n            "prenume": "Vasile",\n            "hobby": [\n                "calatoritul",\n                "sportul"\n            ],\n            "tel": [\n                {\n                    "cod_tara": "+40",\n                    "nr": "74*******"\n                },\n                {\n                    "cod_tara": "+32",\n                    "nr": "59*******"\n                }\n            ]\n        },\n        {\n            "nume": "Mihaescu",\n            "prenume": "Mihai",\n            "hobby": [\n                "cititul",\n                "jocuri video"\n            ],\n            "tel": [\n                {\n                    "cod_tara": "+40",\n                    "nr": "72*******"\n                },\n                {\n                    "cod_tara": "+31",\n                    "nr": "60*******"\n                }\n            ]\n        }\n    ]\n}')
+2023-02-18 13:03:57,442 Exiting: send_message
