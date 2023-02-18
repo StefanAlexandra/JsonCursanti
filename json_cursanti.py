@@ -3,6 +3,10 @@ import datetime
 import logging
 import asyncio
 import telegram
+from time import perf_counter
+
+time_start = perf_counter()
+
 
 json_data = {"Cursanti":[
     {"nume": "Ion",
@@ -23,7 +27,7 @@ json_data = {"Cursanti":[
 ]}
 
 #a
-path = "/Intermediate/2023_02_18/Json Cursanti"
+path = "C:/Users/Andreea/PycharmProjects/SDA/Intermediate/2023_02_18/JsonCursanti"
 hour_now = datetime.datetime.now().hour
 logging.basicConfig(filename="json_cursanti.log", format="%(asctime)s %(message)s", filemode='w')
 
@@ -76,27 +80,29 @@ new_person = {"nume": "Ionescu",
      }
 
 try:
-    write_json(new_person)
+    add_person(new_person)
     obj_log.info("Cursant adaugat cu succes!")
 except Exception as e:
     obj_log.critical(f"Cursantul nu a putut fi adaugat. Actiunea a esuat cu eroarea {e}")
 
 
-# #pip install python-telegram-bot
-# #bot link = http://t.me/sda_17xy_robot
-# # !!! pentru a putea trimite mesaje, trebuie mai intai sa intrati pe pagina bot-ului si sa apasati /start.
-# #Acesta e un fel de acord ca robotul sa poata interactiona cu voi
-# #pentru a va afla id-ul contului, scrieti aici> https://t.me/raw_info_bot
-#
-# tg_api = '6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ'
-# #pentru a seta un bot, interactionati cu https://t.me/BotFather
-# #dar acum puteti folosi acest token pentru bot-ul creat https://t.me/sda_17xy_robot
-# id_Constantin = 1307289323
-# text_to_send = json_formatted_str
-#
-# async def send_mes(id,text):
-#     bot = telegram.Bot(tg_api)
-#     async with bot:
-#         await bot.sendMessage(id,text)
-#
-# asyncio.run(send_mes(id_Constantin, text_to_send))
+#pip install python-telegram-bot
+#bot link = http://t.me/sda_17xy_robot
+# !!! pentru a putea trimite mesaje, trebuie mai intai sa intrati pe pagina bot-ului si sa apasati /start.
+#Acesta e un fel de acord ca robotul sa poata interactiona cu voi
+#pentru a va afla id-ul contului, scrieti aici> https://t.me/raw_info_bot
+
+tg_api = '6227517925:AAEG62y40j_iGJqvXdTSceUlejR1OdRagTQ'
+#pentru a seta un bot, interactionati cu https://t.me/BotFather
+#dar acum puteti folosi acest token pentru bot-ul creat https://t.me/sda_17xy_robot
+id_Constantin = 1307289323
+text_to_send = json_formatted_str
+
+async def send_mes(id,text):
+    bot = telegram.Bot(tg_api)
+    async with bot:
+        await bot.sendMessage(id,text)
+
+asyncio.run(send_mes(id_Constantin, text_to_send))
+
+print(f"Timp de executie = {perf_counter() - time_start} seconds")
