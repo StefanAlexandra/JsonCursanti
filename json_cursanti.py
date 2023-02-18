@@ -22,7 +22,7 @@ json_data = {"Cursanti":[
      }
 ]}
 
-
+#a
 path = "/Intermediate/2023_02_18/Json Cursanti"
 hour_now = datetime.datetime.now().hour
 logging.basicConfig(filename="json_cursanti.log", format="%(asctime)s %(message)s", filemode='w')
